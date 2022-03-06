@@ -1,0 +1,198 @@
+
+@media (max-width: 1350px){
+
+	.CardsContainer .miniCard{
+
+		width: 400px;
+		height: 330px;
+	}
+}
+
+@media (max-width: 1258px){
+
+	.CardsContainer .miniCard{
+
+		width: 350px;
+		height: 330px;
+	}
+}
+
+
+@media (max-width: 1187px){
+
+	.CardsContainer .miniCard{
+
+		width: 320px;
+		height: 340px;
+	}
+
+	.CardsContainer .miniCard .ImgPlaceholder,
+	.CardsContainer .miniCard .ImgPlaceholder2{
+
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+
+}
+
+
+@media (max-width: 1176px){
+
+	.CardsContainer .miniCard{
+
+		width: 300px;
+		height: 350px;
+	}
+}
+
+
+@media (max-width: 1176px){
+
+	.CardsContainer .miniCard{
+
+		width: 300px;
+		height: 350px;
+	}
+}
+
+
+@media (max-width: 1144px){
+
+	main{
+
+		flex-flow: column wrap;
+		margin-bottom: 80px;
+
+	}
+
+	main .Card{
+
+		margin:0 auto;
+	}
+
+	.CardsContainer{
+		margin-left: 0px;
+		margin-top: 30px;
+		margin-bottom: 60px;
+		width: 100%;
+		flex-flow: row wrap;
+		justify-content: center;
+	}
+
+	.CardsContainer .miniCard{
+
+		width: 400px;
+		height: 350px;
+	}
+}
+
+@media (max-width: 858px){
+
+	.CardsContainer{
+
+		flex-flow: column wrap;
+		justify-content: center;
+		align-items: center;
+
+	}
+
+	.CardsContainer .miniCard{
+
+		width: 550px;
+		height: 350px;
+	}
+
+	.CardsContainer .miniCard p{
+
+		font-size: 17px;
+	}
+
+}
+
+@media  (max-width:814px){
+
+	main{
+
+		width: 100%;
+		flex-flow: column;
+	}
+
+	main .Card{
+		width: 100%;
+		margin-left: 0;
+		border-radius: 0px;
+		border-left: none;
+		border-right: none;
+	}
+
+}
+
+@media (max-width: 681px){
+
+	main .Card .Links{
+
+		flex-flow: column wrap;
+		width: 200px;
+		text-align: center;
+	}
+
+	body .BG{
+
+		height: 380px;
+	}
+}
+
+
+@media (max-width: 588px){
+
+	.CardsContainer .miniCard{
+
+		border-radius: 0px;
+		border-left: none;
+		border-right: none;
+		width: 100%;
+		height: 350px;
+	}
+}
+
+@media (max-width: 450px){
+
+	.CardsContainer .miniCard p{
+
+		font-size: 14px;
+	}
+}
+
+
+@media (max-width: 387px){
+
+	body .BG{
+
+		background-size: cover;
+	}
+}
+
+
+@media (min-width: 381px ){
+
+	main .Card p{
+
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+	
+}
+
+@media (max-width: 316px){
+
+	.CardsContainer .miniCard p{
+
+		font-size: 12px;
+	}	
+
+	.CardsContainer .miniCard {
+
+		height: 400px;
+	}
+}
+
