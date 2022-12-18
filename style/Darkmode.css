@@ -1,0 +1,102 @@
+
+/*Animaciones*/
+body.Darkmode{
+
+	background: #161616;
+}
+
+body.Darkmode header{
+
+	background: var(--B1Color);
+	
+}
+
+body.Darkmode header h1{
+	text-shadow: 0px 0px 6px var(--B3Color);
+}
+
+
+body.Darkmode .Card {
+
+    border: 1px solid #505050;
+	box-shadow: 0px 0px 5px  var(--B3Color);
+	background:var(--B4Color);
+
+}
+
+
+
+body.Darkmode .Card .profile{
+
+	box-shadow: 0px 0px 7px var(--B1Color);
+	border: 4px solid var(--B1Color);
+}
+
+
+body.Darkmode .Card h2{
+
+	color: var(--B7Color);
+}
+
+
+body.Darkmode .Card p{
+
+	color: var(--B8Color);
+
+}
+body.Darkmode .Card .Abutton{
+
+	border:2px solid var(--B1Color);
+	color: var(--B1Color);
+}
+
+body.Darkmode .Card .Abutton:hover{
+
+	color:var(--B7Color);
+	background: var(--B1Color);
+}
+
+
+/*Historia Styles*/
+
+body.Darkmode .Card #Historia span{
+
+	color: var(--B1Color);
+}
+
+body.Darkmode .Card #Historia h3{
+
+	color: var(--B7Color);
+}
+
+
+
+body.Darkmode .Card #Historia p{
+
+	color: var(--B8Color);
+
+}
+
+/*Caracteristicas Styles*/
+
+body.Darkmode .Card #Caracteristicas h3{
+
+	color: var(--B7Color);
+}
+
+/*Comida Styles*/
+
+body.Darkmode .Card #Comida h3{
+
+	color: var(--B7Color);
+}
+
+body.Darkmode .Card #Comida span{
+	color: var(--B1Color);
+}
+
+
+body.Darkmode footer{
+	color:var(--B7Color);
+	background: var(--B6Color);
+}
